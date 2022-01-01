@@ -1,6 +1,12 @@
 from torchvision.models.segmentation.deeplabv3 import DeepLabHead
 from torchvision import models
 
+import torch
+import torch.nn as nn
+from torch.nn.modules.batchnorm import BatchNorm2d
+import torchvision.transforms.functional as TF
+
+
 
 def DeepLabv3(outputchannels=1):
     
