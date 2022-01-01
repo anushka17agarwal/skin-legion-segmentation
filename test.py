@@ -38,7 +38,10 @@ def calculate_metrics(y_true, y_pred):
 
     return [score_jaccard, score_f1, score_recall, score_precision, score_acc]
 
-
+def mask_parse(mask):
+    mask = np.expand_dims(mask, axis=-1)    ## (512, 512, 1)
+    mask = np.concatenate([mask, mask, mask], axis=-1)  ## (512, 512, 3)
+    return mask
 
 
 
