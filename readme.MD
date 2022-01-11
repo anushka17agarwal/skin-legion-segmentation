@@ -1,6 +1,10 @@
 # Skin legion segmentation using Deeplab V3
 Implementation of DeepLab V3 using fine tuning in pytorch.
 
+
+## Deeplab v3 Architecture
+![alt text](https://github.com/anushka17agarwal/skin-legion-segmentation/blob/main/download.png)
+
 <h2> Loss over the Epochs </h2>
 
 <p>EPOCH: 1/15 </p>
