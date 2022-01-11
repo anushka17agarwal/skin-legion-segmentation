@@ -2,7 +2,7 @@
 
 <h2> Loss over the Epochs </h2>
 
-EPOCH: 1/15
+<p>EPOCH: 1/15 </p>
 Train loss: 0.706819, Test loss: 0.6546
 Before saving 100
 after saving tensor(0.6546, device='cuda:0')
