@@ -1,4 +1,5 @@
 # Skin legion segmentation using Deeplab V3
+Implementation of DeepLab V3 using fine tuning in pytorch.
 
 <h2> Loss over the Epochs </h2>
 
